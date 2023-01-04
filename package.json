@@ -1,0 +1,20 @@
+{
+  "name": "challenges",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varun-datt/challenges.git"
+  },
+  "keywords": [],
+  "author": "Varun Datt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/varun-datt/challenges/issues"
+  },
+  "homepage": "https://github.com/varun-datt/challenges#readme"
+}
