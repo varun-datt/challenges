@@ -1,11 +1,11 @@
 export { assertEquals } from "https://deno.land/std@0.168.0/testing/asserts.ts";
 
 export async function readPuzzleInput(filename: string) {
-  return (await Deno.readTextFile(filename)).split('\n').filter((n: string) => !!n);
+  return (await Deno.readTextFile(filename)).split('\n').slice(0, -1);
 }
 
-export function mapNumber(items: string[]): number[] {
-  return items.map((n: string) => +n);
+export function mapNumber(items: string[], defaultValue = 0): number[] {
+  return items.map((n: string) => n ? +n : defaultValue);
 }
 
 export function sum(items: number[] | null) {
